@@ -1,0 +1,6 @@
+side = float(input("What's the size of one side: "))
+def calculate_area_square(area):
+    print(f"The area is {area}")
+
+area = side ** 2
+calculate_area_square(area)
