@@ -1,0 +1,9 @@
+height = float(input("What's the height: "))
+width = float(input("What's the width: "))
+
+def calculate_area(area):
+    print(f"The area is {area}")
+    
+area = height * width
+
+calculate_area(area)
